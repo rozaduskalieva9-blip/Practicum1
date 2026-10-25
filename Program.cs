@@ -10,6 +10,12 @@ namespace Practicum
     {
         static void Main(string[] args)
         {
+            var task = new Practicum.Tasks.Level1.Task15();
+            task.Run();
+
+            Console.WriteLine();
+            Console.WriteLine("Нажмите любую клавишу для выхода...");
+            Console.ReadKey();
         }
     }
 }
